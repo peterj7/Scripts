@@ -1,0 +1,59 @@
+#URL Opener v1.0
+#
+#description: this is a python script that uses
+#selenium to automate opening a desired page(s)
+#in aem or externally
+#Input -> enter one url + enter country code(s)
+#Output -> url(s) are opened in one web browser window
+#-------------------------------------------
+
+#imports selenium webdriver
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+print("START PROGRAM")
+
+#user login credentials
+userid = ""
+userpass = ""
+
+#enter desired url and desired countries to open
+#full sites ["en_us", "en_gb", "en_be", "en_dk", "en_nl", "de_de", "de_at", "de_ch", "fr_fr", "it_it", "zh_cn", "ja_jp", "ko_kr"]
+#micro sites ["en_au", "en_hk", "en_in", "en_my", "en_ph", "en_sg", "pt_br", "es_es", "es_mx", "ch_tw"]
+url = "" #country code in url doesn't get counted, needs to be added to countries list
+countryList = []
+
+#checks for aem or external url
+checkAem = False
+if "aem" in url:
+    checkAem = True
+
+#builds array of urls with country codes inserted into url
+indexOfUnderscore = url.find("_")
+countryUrl = []
+for country in countryList:
+    countryUrl.append(url[:(indexOfUnderscore-2)]+country+url[(indexOfUnderscore+3):]) #pieces together url with different country code
+
+#opens each url
+firstInstance = True
+skippedUrl = []
+driver = webdriver.Chrome() #opens desired web browser
+driver.maximize_window()
+for url in countryUrl:
+    driver.get(url) #opens current instance of url in array
+    print("OPEN "+url)
+    driver.implicitly_wait(1) #waits(seconds) for page to load
+    if (firstInstance == True and checkAem == True): #on first instance of opening aem, login is necessary
+        loginid = driver.find_element_by_id('username')
+        loginid.clear()
+        loginid.send_keys(userid)
+        loginpass = driver.find_element_by_id('password')
+        loginpass.clear()
+        loginpass.send_keys(userpass)
+        loginpass.send_keys(Keys.RETURN)
+        firstInstance = False #login no longer necessary
+    driver.execute_script("window.open('');") #opens a new tab
+    driver.switch_to_window(driver.window_handles[-1]) #switches focus to new tab
+driver.execute_script("window.close('');") #closes the last new tab
+
+print("END PROGRAM")
