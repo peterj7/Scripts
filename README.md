@@ -21,6 +21,10 @@
 			<li>Input: multiple URLs + multiple country codes</li>
 			<li>Output: pages of URL list activated for each country code</li>
 		</ul>
+		<li>AEM Activate v1.3.py</li>
+		<ul>
+			<li>Modified v1.2 to pull login credentials, desired URLs, and desired country codes from .txt file </li>
+		</ul>
 		<li>URL Opener v1.0.py</li>
 		<ul>
 			<li>Input: URL + multiple country codes</li>
