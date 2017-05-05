@@ -1,5 +1,7 @@
 <h1>Scripts</h1>
 <h3>Scripts for automating tasks (Python)</h3>
+<p>Requires <a href = "https://www.python.org/downloads/">Python</a> and installation of <a href = "http://selenium-python.readthedocs.io/installation.html">Selenium</a></p>
+<p>Installation of <a href = "https://sites.google.com/a/chromium.org/chromedriver/getting-started">Chromedriver</a> and <a href  = "http://docs.python-requests.org/en/master/user/install/#install">Requests</a> required for some scripts</p>
 
 <h3>Content</h3>
 <ul>
