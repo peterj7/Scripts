@@ -23,7 +23,7 @@
 		</ul>
 		<li>AEM Activate v1.3.py</li>
 		<ul>
-			<li>Modified v1.2 to pull login credentials, desired URLs, and desired country codes from .txt file </li>
+			<li>Modified v1.2 to pull login credentials, desired URLs, and desired country codes from .txt files</li>
 		</ul>
 		<li>URL Opener v1.0.py</li>
 		<ul>
