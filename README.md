@@ -31,5 +31,11 @@
 		<ul>
 			<li>Modified v1.0 to allow multiple URLs</li>
 		</ul>
+		<li>Find All Links v1.0</li>
+		<ul>
+			<li>Input: 1 URL</li>
+			<li>Output: list of every link on that web page</li>
+			<li>Description: automates listing every web address that the input web page links to</li>
+		</ul>
 	</ul>
 </ul>
