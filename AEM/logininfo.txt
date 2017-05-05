@@ -1,3 +1,0 @@
-Enter login username below
-
-Enter login password below
