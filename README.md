@@ -37,6 +37,10 @@
 		<ul>
 			<li>Modified v1.0 to allow multiple URLs</li>
 		</ul>
+		<li>URL Opener v1.2.py</li>
+		<ul>
+			<li>Modified v1.1 to allow preview mode based on user input and pull login credentials, desired URLs, and desired country codes from .txt files</li>
+		</ul>
 		<li>Find All Links v1.0</li>
 		<ul>
 			<li>Input: 1 URL</li>
