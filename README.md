@@ -11,9 +11,7 @@
         <ul>
 		<li>
 		
-		```
 		pip install selenium
-		```
 		
 		</li>
 	</ul>
