@@ -57,4 +57,19 @@
 			<li>Description: automates listing every web address that the input web page links to</li>
 		</ul>
 	</ul>
+	<li>Bookmarks</li>
+	<ul>
+		<li>countrySwitch.js</li>
+		<ul>
+			<li>Description: locates the country code and switches to desired country code. AEM compatible</li>
+		</ul>
+		<li>dsCountrySwitch.js</li>
+		<ul>
+			<li>Description: locates the country code through specific identifiers. AEM compatible</li>
+		</ul>
+		<li>thankYouPage.js</li>
+		<ul>
+			<li>Description: navigates you to thanks or watch page, depending on url content. AEM compatible</li>
+		</ul>
+	</ul>
 </ul>
