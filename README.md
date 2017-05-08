@@ -9,9 +9,10 @@
 	</ul>
 	<li><a href = "http://selenium-python.readthedocs.io/installation.html">Selenium</a> installaton</li>
 		
-		```c
+		
         	pip install selenium
-        	```
+        	
+		
 	<li><a href = "https://sites.google.com/a/chromium.org/chromedriver/getting-started">Chromedriver</a> installation (if Google Chrome is desired web browser)</li>
 	<li><a href  = "http://docs.python-requests.org/en/master/user/install/#install">Requests</a> installation (for some scripts)</li>
 </ol>
