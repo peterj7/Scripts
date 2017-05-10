@@ -63,11 +63,11 @@
 		<ul>
 			<li>Description: locates the country code and switches to desired country code. AEM compatible</li>
 		</ul>
-		<li>dsCountrySwitch.js</li>
+		<li>alternativeCountrySwitch.js</li>
 		<ul>
 			<li>Description: locates the country code through specific identifiers. AEM compatible</li>
 		</ul>
-		<li>thankYouPage.js</li>
+		<li>leadPage.js</li>
 		<ul>
 			<li>Description: navigates you to thanks or watch page, depending on url content. AEM compatible</li>
 		</ul>
