@@ -38,7 +38,7 @@
 		</ul>
 		<li>URL Opener v1.0.py</li>
 		<ul>
-			<li>Input: URL + multiple country codes</li>
+			<li>Input: 1 URL + multiple country codes</li>
 			<li>Output: urls are opened in one web browser window</li>
 			<li>Description: automates opening the same page across different countries in aem or externally</li>
 		</ul>
@@ -55,6 +55,12 @@
 			<li>Input: 1 URL</li>
 			<li>Output: list of every link on that web page</li>
 			<li>Description: automates listing every web address that the input web page links to</li>
+		</ul>
+		<li>AEM Rollout v1.0.py</li>
+		<ul>
+			<li>Input: multiple URLs + multiple country codes</li>
+			<li>Output: specified pages rolled out for each child country listed</li>
+			<li>Description: automates rolling out multiple pages to the same countries</li>
 		</ul>
 	</ul>
 <br>
