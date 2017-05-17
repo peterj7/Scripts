@@ -64,7 +64,7 @@
 		</ul>
 	</ul>
 <br>
-	<li>Bookmarks (url, unique identifiers, country codes not provided)</li>
+	<li>Bookmarklets (url, unique identifiers, country codes not provided)</li>
 	<ul>
 		<li>countrySwitch.js</li>
 		<ul>
