@@ -1,4 +1,0 @@
-Enter login username on new line below
-INSERT USERNAME HERE
-Enter login password on new line below
-INSERT PASSWORD HERE
